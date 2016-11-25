@@ -1,0 +1,41 @@
+{
+  "author": "pegasuskim <pegasuskim@gmail.com>",
+  "name": "mysql-cluster-pool",
+  "description": "mysql cluster and connect pool",
+  "license": "Apache-2.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pegasuskim/mysql-cluster-pool.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "generic-pool": ">0.0.0",
+    "underscore": ">=1.4.4"
+  },
+  "description": "Cluster of pools for generic resources",
+  "devDependencies": {
+    "mocha": ">=1.8.0"
+  },
+  "keywords": [
+    "pool",
+    "pooling",
+    "throttle",
+    "connection",
+    "connection pool",
+    "cluster",
+    "slaves",
+    "slave",
+    "multi",
+    "multiple",
+    "generic-pool",
+    "replication"
+  ],
+  "main": "lib/cluster-pool.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.1.2"
+}
